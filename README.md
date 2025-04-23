@@ -64,10 +64,9 @@ const physicsSystem = DragRotateCollision(
   colliderIds, 
   dotNetHelper
 );
+```
 Bounded Drag Controls
-js
-Copia
-Modifica
+```js
 activateDrag(
   initialX, initialY, initialZ,
   objectLength, objectHeight, objectWidth,
