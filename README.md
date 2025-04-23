@@ -110,16 +110,16 @@ public void UpdateSpacePosition(double x, double y, double z)
 ```
 📦 Metodi esposti
 Drag-Rotate-Collision System
-togglePhysics(): Attiva/disattiva la simulazione fisica
+  - togglePhysics(): Attiva/disattiva la simulazione fisica
 
-toggleGroupMode(): Attiva la selezione multipla
+  - toggleGroupMode(): Attiva la selezione multipla
 
-checkStability(): Verifica la stabilità degli oggetti impilati
+  - checkStability(): Verifica la stabilità degli oggetti impilati
 
 Bounded Drag Controls
-setDragEnabled(bool): Abilita/disabilita il trascinamento
+  - setDragEnabled(bool): Abilita/disabilita il trascinamento
 
-setNewDimensions(length, height, width): Aggiorna le dimensioni a runtime
+  - setNewDimensions(length, height, width): Aggiorna le dimensioni a runtime
 
 🧪 Esempi d'uso
  ```js 
