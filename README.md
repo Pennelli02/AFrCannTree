@@ -126,7 +126,7 @@ setDragEnabled(bool): Abilita/disabilita il trascinamento
 setNewDimensions(length, height, width): Aggiorna le dimensioni a runtime
 
 🧪 Esempi d'uso
-<pre> ```js // Inizializza il sistema di fisica per la gestione dei colli nel vano di carico const logisticsSystem = DragRotateCollision( 13.6, // Lunghezza vano camion (metri) 2.55, // Larghezza vano camion 2.7, // Altezza vano camion ['#collo1', '#collo2', '#collo3'], // ID degli oggetti da gestire dotNetHelper // Collegamento con backend Blazor ); // Inizializza i controlli per trascinamento con limiti definiti nello spazio 3D activateDrag( 0, 0, 0, // Posizione iniziale dell'oggetto 2, 1, 1.5, // Dimensioni dell'oggetto (L x H x P) 10, 3, 5, // Limiti di movimento nello spazio dotNetHelper // Collegamento con backend Blazor ); ``` </pre>
+<pre lang=js> ```js // Inizializza il sistema di fisica per la gestione dei colli nel vano di carico const logisticsSystem = DragRotateCollision( 13.6, // Lunghezza vano camion (metri) 2.55, // Larghezza vano camion 2.7, // Altezza vano camion ['#collo1', '#collo2', '#collo3'], // ID degli oggetti da gestire dotNetHelper // Collegamento con backend Blazor ); // Inizializza i controlli per trascinamento con limiti definiti nello spazio 3D activateDrag( 0, 0, 0, // Posizione iniziale dell'oggetto 2, 1, 1.5, // Dimensioni dell'oggetto (L x H x P) 10, 3, 5, // Limiti di movimento nello spazio dotNetHelper // Collegamento con backend Blazor ); ``` </pre>
 🛠️ Autori & Manutenzione
 Questo progetto è progettato per essere estendibile e adattabile in ambienti WebXR, simulazioni logistiche e configuratori 3D.
 Per segnalare problemi o proporre miglioramenti, apri una issue o una pull request su GitHub.
