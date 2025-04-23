@@ -27,7 +27,7 @@ Feedback visivo durante l'interazione
 Dimensioni dinamiche modificabili a runtime
 
 🔧 Prerequisiti
-html
+```html
 <!-- Librerie richieste -->
 <script src="https://aframe.io/releases/1.5.0/aframe.min.js"></script>
 <script src="https://unpkg.com/aframe-orbit-controls@1.3.2/dist/aframe-orbit-controls.min.js"></script>
@@ -41,27 +41,22 @@ html
 
 <!-- Per i controlli di trascinamento vincolato -->
 <script src="drag-boundary-system.js"></script>
+```
 🧠 Configurazione comune
-js
+```js
 
-const ATHREE = AFRAME.THREE;
-Variabili per Drag-Rotate-Collision System
-
-js
-
-let scene, camera, box, container, renderer, controls;
-Variabili per Bounded Drag Controls
-js
-Copia
-Modifica
+const ATHREE = AFRAME.THREE; //Variabili per Drag-Rotate-Collision System
+```
+```js
+//Variabili per Bounded Drag Controls
+let scene, camera, box, container, renderer, controls; 
 let drag, actualCamera, Ascene;
 let dotNet;
 let isDragEnabled = true;
+```
 🚀 Inizializzazione
 Drag-Rotate-Collision System
-js
-Copia
-Modifica
+```js
 const physicsSystem = DragRotateCollision(
   containerLength, 
   containerWidth, 
@@ -79,6 +74,7 @@ activateDrag(
   limitX, limitY, limitZ,
   dotNetHelper
 );
+```
 🧾 Parametri richiesti
 physics-manager.js
 Tlength, TWidth, THeight: Dimensioni dello spazio contenitore
@@ -99,7 +95,7 @@ dotNetHelper: Oggetto C# per la comunicazione Blazor
 🔁 Integrazione con Blazor
 Comunicazione tramite dotNetHelper da/verso C#:
 
-csharp
+```csharp
 
 [JSInvokable]
 public void OnObjectSelected(string objectId)
@@ -112,6 +108,7 @@ public void UpdateSpacePosition(double x, double y, double z)
 {
     // Aggiorna la posizione nello stato dell'applicazione
 }
+```
 📦 Metodi esposti
 Drag-Rotate-Collision System
 togglePhysics(): Attiva/disattiva la simulazione fisica
