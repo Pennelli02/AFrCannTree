@@ -1,4 +1,4 @@
-#3D Interaction System for A-Frame and Three.js
+# 3D Interaction System for A-Frame and Three.js
 
 
 Un sistema completo per l'interazione con oggetti 3D in ambienti WebGL, progettato per integrazione con A-Frame, Three.js e backend C# Blazor.
