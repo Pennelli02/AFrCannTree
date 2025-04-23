@@ -1,4 +1,4 @@
-3D Interaction System for A-Frame and Three.js
+#3D Interaction System for A-Frame and Three.js
 
 
 Un sistema completo per l'interazione con oggetti 3D in ambienti WebGL, progettato per integrazione con A-Frame, Three.js e backend C# Blazor.
@@ -7,24 +7,24 @@ Un sistema completo per l'interazione con oggetti 3D in ambienti WebGL, progetta
 1. Drag-Rotate-Collision System (physics-manager.js)
 Manipolazione avanzata di oggetti 3D con trascinamento, rotazione e ridimensionamento
 
-Sistema di fisica integrato con CANNON.js per collisioni realistiche
+  - Sistema di fisica integrato con CANNON.js per collisioni realistiche
 
-Gestione di gruppi di oggetti con trasformazioni coordinate
+  - Gestione di gruppi di oggetti con trasformazioni coordinate
 
-Controllo dei limiti spaziali e rilevamento collisioni
+  - Controllo dei limiti spaziali e rilevamento collisioni
 
-Analisi di stabilità per oggetti impilati
+  - Analisi di stabilità per oggetti impilati
 
 2. Bounded Drag Controls (drag-boundary-system.js)
-Trascinamento vincolato con limiti configurabili
+ - Trascinamento vincolato con limiti configurabili
 
-Integrazione diretta con A-Frame e Three.js
+ - Integrazione diretta con A-Frame e Three.js
 
-Comunicazione bidirezionale con backend C#
+ - Comunicazione bidirezionale con backend C#
 
-Feedback visivo durante l'interazione
+ - Feedback visivo durante l'interazione
 
-Dimensioni dinamiche modificabili a runtime
+ - Dimensioni dinamiche modificabili a runtime
 
 🔧 Prerequisiti
 ```html
