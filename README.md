@@ -124,7 +124,8 @@ Bounded Drag Controls
 🧪 Esempi d'uso
  ```js 
  // Inizializza il sistema di fisica per la gestione dei colli nel vano di carico
-const logisticsSystem = DragRotateCollision( 13.6, // Lunghezza vano camion (metri)
+const logisticsSystem = DragRotateCollision(
+13.6, // Lunghezza vano camion (metri)
 2.55, // Larghezza vano camion
 2.7, // Altezza vano camion
 ['#collo1', '#collo2', '#collo3'], // ID degli oggetti da gestire
@@ -134,7 +135,8 @@ activateDrag(
 0, 0, 0, // Posizione iniziale dell'oggetto
 2, 1, 1.5, // Dimensioni dell'oggetto (L x H x P)
 10, 3, 5, // Limiti di movimento nello spazio
-dotNetHelper // Collegamento con backend Blazor );
+dotNetHelper // Collegamento con backend Blazor
+);
 ``` 
 🛠️ Autori & Manutenzione
 Questo progetto è progettato per essere estendibile e adattabile in ambienti WebXR, simulazioni logistiche e configuratori 3D.
