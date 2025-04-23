@@ -75,21 +75,21 @@ activateDrag(
 );
 ```
 🧾 Parametri richiesti
-physics-manager.js
-Tlength, TWidth, THeight: Dimensioni dello spazio contenitore
+physics-manager.js:
+  - Tlength, TWidth, THeight: Dimensioni dello spazio contenitore
 
-ColliId: Array di ID degli oggetti A-Frame da gestire
+  - ColliId: Array di ID degli oggetti A-Frame da gestire
 
-dotNetHelper: Oggetto C# per la comunicazione Blazor
+  - dotNetHelper: Oggetto C# per la comunicazione Blazor
 
 drag-boundary-system.js
-x, y, z: Posizione iniziale dell’oggetto
+  - x, y, z: Posizione iniziale dell’oggetto
 
-length, height, width: Dimensioni dell’oggetto
+  - length, height, width: Dimensioni dell’oggetto
 
-limitX, limitY, limitZ: Limiti dello spazio di movimento
+  - limitX, limitY, limitZ: Limiti dello spazio di movimento
 
-dotNetHelper: Oggetto C# per la comunicazione Blazor
+  - dotNetHelper: Oggetto C# per la comunicazione Blazor
 
 🔁 Integrazione con Blazor
 Comunicazione tramite dotNetHelper da/verso C#:
